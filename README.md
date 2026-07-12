@@ -1,31 +1,57 @@
 # 🍽️ Restaurant Orders Analysis
 
+![Dashboard](images/Restaurant_Orders_Dashboard.png)
+
 ## 📌 Project Overview
-This project analyzes restaurant order data to uncover customer ordering patterns, menu performance, and revenue insights. The analysis includes data cleaning, merging datasets, exploratory data analysis (EDA), and visualizations to support business decision-making.
+
+This project analyzes restaurant order data using Python to uncover business insights, identify sales trends, and support data-driven decision-making.
+
+The analysis includes data cleaning, exploratory data analysis (EDA), visualizations, and an interactive dashboard summarizing key business metrics.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Business Questions Answered
 
-- Clean and prepare restaurant order data.
-- Merge multiple datasets into a single analysis-ready dataset.
-- Analyze customer ordering behavior.
-- Identify the most popular menu items.
-- Explore revenue by category and item.
-- Generate business insights using visualizations.
-
----
-
-## 📂 Dataset
-
-The project uses two datasets:
-
-- **order_details.csv** – Customer order information.
-- **menu_items.csv** – Menu item details including category and price.
+- What is the total revenue generated?
+- Which menu items generate the highest revenue?
+- Which categories are the most profitable?
+- What are the best-selling items?
+- What is the distribution of order quantities?
+- Which items contribute most to total sales?
+- What are the key performance indicators (KPIs)?
+- What business insights can improve restaurant performance?
 
 ---
 
-## 🛠️ Tools & Libraries
+## 📊 Dashboard Preview
+
+### Restaurant Dashboard
+
+![Dashboard](images/Restaurant_Orders_Dashboard.png)
+
+---
+
+## 📈 Visualizations
+
+### Total Revenue by Category
+
+![Revenue Category](images/revenue_by_category.png)
+
+### Top Selling Menu Items
+
+![Top Items](images/top_items.png)
+
+### Order Quantity Distribution
+
+![Distribution](images/order_distribution.png)
+
+### Revenue Distribution
+
+![Revenue Distribution](images/revenue_distribution.png)
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -36,86 +62,71 @@ The project uses two datasets:
 
 ---
 
-## 📊 Analysis Process
-
-1. Data Loading
-2. Data Cleaning
-3. Data Merging
-4. Exploratory Data Analysis (EDA)
-5. Data Visualization
-6. Business Insights
-7. Recommendations
-
----
-
-## 📈 Visualizations
-
-The project includes several visualizations, including:
-
-- Top 10 Most Ordered Menu Items
-- Orders by Category
-- Revenue by Category
-- Top Revenue-Generating Items
-- Price Distribution
-- Correlation Heatmap
-- Additional business-focused charts
-
----
-
-## 💡 Key Insights
-
-- Identified the most frequently ordered menu items.
-- Compared order volume across menu categories.
-- Analyzed revenue contribution by category.
-- Highlighted the highest-performing products.
-- Explored pricing patterns and customer preferences.
-
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-Restaurant-Orders-Analysis/
+Restaurant-Orders-Analysis
 │
 ├── order_analysis.ipynb
-├── order_details.csv
-├── menu_items.csv
+├── order_details.xlsx
+├── menu_items.xlsx
+├── requirements.txt
 ├── README.md
-└── requirements.txt
+│
+└── images
+    ├── Restaurant_Orders_Dashboard.png
+    ├── revenue_by_category.png
+    ├── top_items.png
+    ├── order_distribution.png
+    └── revenue_distribution.png
 ```
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repository.
+## 🚀 How to Run
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/yourusername/Restaurant-Orders-Analysis.git
 ```
 
-2. Install the required libraries.
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open the notebook.
+Launch Jupyter Notebook:
 
 ```bash
-jupyter notebook order_analysis.ipynb
+jupyter notebook
+```
+
+Open:
+
+```
+order_analysis.ipynb
 ```
 
 ---
 
-## 👤 Author
+## 📌 Key Insights
 
-**Mohamed Atef**
-
-- Aspiring Data Analyst
-- Accountant
-- Skilled in Python, SQL, Excel, Power BI, and Data Visualization.
+- Revenue is concentrated in a small number of menu items.
+- Some categories consistently outperform others.
+- Best-selling products are not always the most profitable.
+- Order quantity varies significantly across menu items.
+- Business decisions should focus on both sales volume and profitability.
 
 ---
 
-## ⭐ If you found this project useful, feel free to star the repository.
+## 👨‍💻 Author
+
+**Mohamed Atef**
+
+- Accountant
+- Aspiring Data Analyst
+
+### Connect with me
+
+- LinkedIn: https://www.linkedin.com/in/your-linkedin
+- GitHub: https://github.com/mohmedatef96-ma
